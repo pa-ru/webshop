@@ -1,0 +1,24 @@
+{
+  "npmScope": "webshop",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "webshop": {
+      "tags": ["app"]
+    },
+    "webshop-e2e": {
+      "tags": ["e2e"]
+    },
+    "order-ui": {
+      "tags": ["ui"]
+    },
+    "product-ui": {
+      "tags": ["ui"]
+    }
+  }
+}
